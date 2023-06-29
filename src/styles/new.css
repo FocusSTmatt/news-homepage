@@ -1,0 +1,83 @@
+.New {
+}
+
+.New-ctn {
+    background: hsl(240, 100%, 5%);
+    padding: 0.9em;
+    width: 272px;
+    height: 393px;
+}
+
+.New h1 {
+    color: hsl(35, 77%, 62%);
+    padding-bottom: 0.4em;
+}
+
+.New h4 {
+    color: hsl(36, 100%, 99%);
+    padding-bottom: 0.7em;
+}
+
+.New h4:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.New p {
+    color: hsl(233, 8%, 79%);
+    font-size: 12px;
+    line-height: 1.5;
+    padding-bottom: 1.5em;
+    cursor: pointer;
+}
+
+
+
+.accent-line {
+    width: 100%;
+    height: 1px;
+    background: hsl(233, 8%, 79%);
+    margin-bottom: 1.5em;
+}
+
+@media screen and (max-width: 767px ){
+    .New {
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 3.5em;
+    }
+    .New-ctn {
+        height: 100%;
+        width: 100%;
+        padding: 1.2em;
+    }
+
+    .New h1 {
+        color: hsl(35, 77%, 62%);
+        padding-bottom: 0.8em;
+    }
+    
+    .New h4 {
+        color: hsl(36, 100%, 99%);
+        padding-bottom: 0.7em;
+        font-size: 20px;
+    }
+    
+    .New p {
+        color: hsl(233, 8%, 79%);
+        font-size: 13px;
+        line-height: 1.5;
+        padding-bottom: 2.5em;
+        letter-spacing: 0.1em;
+    }
+    p:nth-of-type(3) {
+        padding-bottom: 0.3em;
+    }
+    
+    .accent-line {
+        width: 100%;
+        height: 1px;
+        background: hsl(233, 8%, 79%);
+        margin-bottom: 2.5em;
+    }
+}

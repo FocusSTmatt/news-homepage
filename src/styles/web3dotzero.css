@@ -1,0 +1,140 @@
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: interXbold;
+    src: url('../assets/fonts/static/Inter-ExtraBold.ttf');
+}
+
+.Web3DotZero {
+    height: 393px;
+}
+
+.desktopImage {
+    width: 560px;
+    height: 230px;
+}
+
+.hero-bottom-ctn {
+    display: flex;
+    flex: 2;
+    padding-top: 1em;
+    width: 560px;
+}
+
+.hero-bottom-ctn h1 {
+    display: flex;
+    font-family: interXbold;
+    align-self: ;
+    font-size: 40px;
+    width: 270px;
+    
+}
+
+.hero-read-more {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 0.5em;
+}
+
+.hero-read-more p {
+    font-weight: 600;
+    font-size: 12px;
+    padding-top: 0.4em;
+    width: 275px;
+    color: rgb(137, 136, 136);
+    line-height: 1.5;
+    
+}
+
+button {
+    font-weight: 400;
+    width: 150px;
+    height: 40px;
+    letter-spacing: 3px;
+    background: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: hsl(240, 100%, 5%);
+}
+
+@media screen and (max-width: 811px ) {
+    .desktopImage {
+        width:  500px;
+        height: 230px;
+    }
+
+    .hero-bottom-ctn {
+        width: 500px;
+        padding: 0;
+    }
+
+    .hero-bottom-ctn h1 {
+        font-size: 35px;
+    }
+
+    .hero-read-more {
+        padding: 0;
+    }
+    
+    .hero-read-more p {
+        font-size: 10px;
+        width: 230px;
+        
+        
+    }
+}
+
+@media screen and (max-width: 767px ) {
+    .Web3DotZero {
+        height: 100%;
+    }
+    
+    .mobileImage {
+        height: 300px;
+        width: 100%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    .hero-bottom-ctn {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 1.2em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-bottom-ctn h1 {
+        font-size: 39px;
+        width: 300px;
+        text-align: left;
+        line-height: 1;
+        letter-spacing: 2px;
+        padding-bottom: 0.3em;
+    }
+
+    
+    .hero-read-more p {
+        font-size: 13px;
+        width: 100%;
+        font-weight: 400;
+        line-height: 2;
+        padding-bottom: 2em;
+        letter-spacing: 1px;
+    }
+
+    .hero-read-more button {
+        width: 175px;
+        height: 45px;
+    }
+}
