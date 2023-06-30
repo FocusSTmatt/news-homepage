@@ -35,7 +35,7 @@ function Navbar() {
 
 <div className={openMenu()}>
     <nav>
-    < RxCross1 onClick={() => handleClick()} className='cross'/>
+    < RxCross1 onClick={() => handleClick()} className='cross slide-in-right'/>
         <a>Home</a>
         <a>New</a>
         <a>Popular</a>
